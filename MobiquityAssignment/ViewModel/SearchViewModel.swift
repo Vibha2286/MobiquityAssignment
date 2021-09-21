@@ -13,7 +13,7 @@ protocol SearchViewModelDelegate: NSObject {
     func showErrorMessage(_ errorMessage: String?)
 }
 
-class SearchViewModel {
+final class SearchViewModel {
     
     private weak var delegate: SearchViewModelDelegate?
     private(set) var searchImageInteractor: SearchFlickrImageBoundary

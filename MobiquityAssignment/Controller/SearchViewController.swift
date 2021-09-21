@@ -8,7 +8,7 @@
 import UIKit
 import ProgressHUD
 
-class SearchViewController: UICollectionViewController {
+final class SearchViewController: UICollectionViewController {
     
     @IBOutlet weak var searchTextField: UITextField!
     private lazy var viewModel = SearchViewModel(delegate: self,

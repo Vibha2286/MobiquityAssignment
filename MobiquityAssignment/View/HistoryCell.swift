@@ -12,7 +12,7 @@ protocol HistoryCellDelegate: NSObject {
     func removeItemAtIndex(index: Int)
 }
 
-class HistoryCell: UITableViewCell {
+final class HistoryCell: UITableViewCell {
 
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var deleteButton: UIButton!

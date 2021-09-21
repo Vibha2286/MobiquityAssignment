@@ -7,6 +7,6 @@
 
 import UIKit
 
-class FlickrImageCell: UICollectionViewCell {
+final class FlickrImageCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
 }

@@ -8,7 +8,7 @@
 import UIKit
 
 
-class HistoryViewController: UITableViewController {
+final class HistoryViewController: UITableViewController {
     
     private weak var delegate: SearchViewModelDelegate?
     private lazy var viewModel = HistoryViewModel()
