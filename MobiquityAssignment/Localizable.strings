@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  MobiquityAssignment
+
+  Created by Vibha Mangrulkar on 2021/09/17.
+  
+*/
+
+// Screen Title
+"history.screen.title" = "History";
+
+// Button
+"history.Button.title" = "History";
+"ok.Button.title" = "Ok";
+
+//Alert
+"error.alert.title" = "Something went wrong";
+"loading.Image" = "Loading Images ...";
+
